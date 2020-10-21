@@ -1,0 +1,28 @@
+.HomePage {
+  background: url("../../assets/Bg1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  color: #07689f;
+  font-family: "Tangerine", "Pompiere", cursive, "Ubuntu", "Rancho",
+    "Montserrat", sans-serif;
+}
+
+.HomePage h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem auto 3px auto;
+}
+.Activities {
+  overflow: hidden;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .HomePage h1 {
+    font-size: 2.2rem;
+    margin: 1rem auto 3px auto;
+  }
+}

@@ -1,0 +1,23 @@
+.NavigationItems {
+  padding: 2rem;
+  /* list-style: none;
+  text-decoration: none; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  font-family: "Pompiere", "Ubuntu", "Montserrat", sans-serif;
+  border-bottom: white solid 1px;
+}
+
+@media (min-width: 650px) {
+  .NavigationItems {
+    flex-flow: row;
+    margin: 0;
+    padding: 0;
+  }
+  .NavigationItemsBook {
+    flex-flow: row;
+    align-items: right;
+  }
+}

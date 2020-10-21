@@ -1,0 +1,75 @@
+.Activities {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 2.5rem 4rem;
+  font-family: "Pompiere", "Ubuntu", "Montserrat", sans-serif;
+  width: 55%;
+  justify-content: center;
+}
+
+.Activity span {
+  width: 70px;
+  height: 70px;
+}
+
+.Activity {
+  flex-flow: row;
+  border: 1px solid gray;
+  padding: 0.2rem;
+  margin: 8px 1rem 5px 0;
+}
+
+.Activity p {
+  margin: 0 3px;
+  width: 180px;
+}
+@media (max-width: 1150px) {
+  .Activities {
+    width: 80%;
+  }
+
+  .Activity {
+    margin: 8px 1rem 5px 0;
+  }
+
+  .Activity p {
+    margin: 0 3px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Activities {
+    padding: 2rem 0;
+    width: 90%;
+  }
+
+  .Activity {
+    padding: 0.2rem;
+    margin: 8px 1rem 5px 0;
+  }
+
+  .Activity p {
+    font-size: 0.8rem;
+    margin: 0 3px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 380px) {
+  .Activities {
+    padding: 2rem 0;
+    width: 97%;
+  }
+
+  .Activity {
+    margin: 4px 0.5rem 3px 0;
+  }
+
+  .Activity p {
+    font-size: 0.8rem;
+    margin: 0 3px;
+    margin-bottom: 3px;
+    width: 110px;
+  }
+}

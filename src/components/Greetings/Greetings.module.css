@@ -1,0 +1,98 @@
+.HomeSec {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  background-color: white;
+  opacity: 0.5;
+  box-shadow: 1px 2px 3px rgb(61, 156, 219);
+  border-radius: 10px;
+  font-family: "Pompiere", "Ubuntu", "Montserrat", sans-serif;
+  width: 40%;
+}
+.HomeSec p {
+  color: rgb(0, 41, 128);
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 1.3rem 0.5rem 1.3rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.8rem;
+}
+
+.HomeSec button {
+  text-align: center;
+  margin: 2px auto 2rem auto;
+  width: 35%;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Montserrat", "Pompiere", "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.11rem;
+  border: none;
+}
+.HomeSec button:hover,
+.HomeSec button:active {
+  background-color: rgb(12, 64, 161);
+  border: 1px black;
+  font-weight: 700;
+  animation: enable 0.5s linear;
+}
+
+@keyframes enable {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 750px) {
+  .HomeSec {
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .HomeSec p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1rem 1rem 0.1rem 1rem;
+    margin: 5px auto;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+  }
+
+  .HomeSec button {
+    margin: 0.5rem auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .HomeSec {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .HomeSec p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.6rem 0.6rem 0.1rem 0.6rem;
+    margin: 5px auto;
+    letter-spacing: 0.1rem;
+    line-height: 1.4rem;
+  }
+
+  .HomeSec button {
+    margin: 0.4rem auto;
+    padding: 6px;
+  }
+  .HomeSec button:hover,
+  .HomeSec button:active {
+    font-weight: 600;
+  }
+}

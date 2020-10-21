@@ -1,0 +1,33 @@
+.ContactData {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  border: 1px solid rgb(163, 141, 141);
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 10px;
+  justify-content: center;
+  font-family: "Pompiere", "Ubuntu", "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.Input {
+  display: block;
+  width: 80%;
+  height: 30px;
+  margin: 10px auto;
+  border: 1px solid #eee;
+  box-sizing: content-box;
+  letter-spacing: 0.1rem;
+}
+
+.Button {
+  display: inline-block;
+  margin: 1rem auto;
+}
+
+@media (min-width: 600px) {
+  .ContactData {
+    width: 500px;
+  }
+}

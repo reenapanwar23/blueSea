@@ -1,0 +1,17 @@
+.Carousel {
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-family: "Pompiere", "Ubuntu", "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+@media (min-width: 649px) {
+  .mobileView {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .desktopView {
+    display: none;
+  }
+}

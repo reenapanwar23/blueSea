@@ -1,0 +1,44 @@
+.Button {
+  text-align: left;
+}
+.Button button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(47, 71, 144);
+  font-family: "Pompiere", "Ubuntu", "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.12rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin: 2px 10px;
+}
+
+.Button button:active {
+  background-color: rgb(64, 84, 144);
+}
+
+.Button button:hover {
+  animation: enable 0.5s linear;
+}
+
+@keyframes enable {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 380px) {
+  .Button button {
+    padding: 1rem;
+    margin: 2px 10px 30px 10px;
+  }
+}
