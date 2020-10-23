@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/blueSea/static/css/main.7de292cf.chunk.css",
-    "main.js": "/blueSea/static/js/main.d79c6a74.chunk.js",
-    "main.js.map": "/blueSea/static/js/main.d79c6a74.chunk.js.map",
+    "main.js": "/blueSea/static/js/main.29862849.chunk.js",
+    "main.js.map": "/blueSea/static/js/main.29862849.chunk.js.map",
     "runtime-main.js": "/blueSea/static/js/runtime-main.fa558caa.js",
     "runtime-main.js.map": "/blueSea/static/js/runtime-main.fa558caa.js.map",
     "static/js/2.d3ed4e04.chunk.js": "/blueSea/static/js/2.d3ed4e04.chunk.js",
     "static/js/2.d3ed4e04.chunk.js.map": "/blueSea/static/js/2.d3ed4e04.chunk.js.map",
     "index.html": "/blueSea/index.html",
-    "precache-manifest.5fecd5932b6ffebc83187034ce97491c.js": "/blueSea/precache-manifest.5fecd5932b6ffebc83187034ce97491c.js",
+    "precache-manifest.47717c41a7f7a27cb6f56a584fff1a46.js": "/blueSea/precache-manifest.47717c41a7f7a27cb6f56a584fff1a46.js",
     "service-worker.js": "/blueSea/service-worker.js",
     "static/css/main.7de292cf.chunk.css.map": "/blueSea/static/css/main.7de292cf.chunk.css.map",
     "static/js/2.d3ed4e04.chunk.js.LICENSE.txt": "/blueSea/static/js/2.d3ed4e04.chunk.js.LICENSE.txt",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.fa558caa.js",
     "static/js/2.d3ed4e04.chunk.js",
     "static/css/main.7de292cf.chunk.css",
-    "static/js/main.d79c6a74.chunk.js"
+    "static/js/main.29862849.chunk.js"
   ]
 }

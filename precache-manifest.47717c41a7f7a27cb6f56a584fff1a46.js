@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f43b353b7cbe650d1ee7ee172b578f9",
+    "revision": "456bfab1aafaf2eff863e4e4bd8efd98",
     "url": "/blueSea/index.html"
   },
   {
-    "revision": "6d9fec722819dd9c12b7",
+    "revision": "a6ebd659833bfd7036c5",
     "url": "/blueSea/static/css/main.7de292cf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blueSea/static/js/2.d3ed4e04.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d9fec722819dd9c12b7",
-    "url": "/blueSea/static/js/main.d79c6a74.chunk.js"
+    "revision": "a6ebd659833bfd7036c5",
+    "url": "/blueSea/static/js/main.29862849.chunk.js"
   },
   {
     "revision": "11db83de60d7811efb83",
